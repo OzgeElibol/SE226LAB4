@@ -56,3 +56,6 @@ dictionary1.update(dictionary2)
 print("Dictionary after updation:")
 merged_dictionary=dictionary1
 print(merged_dictionary)
+maxvalue= max(merged_dictionary.values())
+minvalue= min(merged_dictionary.values())
+print(maxvalue, minvalue)
